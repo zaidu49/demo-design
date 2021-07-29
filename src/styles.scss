@@ -4,3 +4,145 @@
 {
     background: #000000;
 }
+
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+	    background-image: url('assets/images/Login-bg.jpg') !important;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    color: white;
+        }
+	a
+	{
+	    color: #696969;
+	}
+	a:hover
+	{
+	    color: #00B278;
+	}
+        .row
+        {
+            // background: white;
+            border-radius: 30px;
+            /* <!--box-shadow: 12px 12px 22px grey; --> */
+        }
+       
+        .btn1
+        {
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            background: #00B278;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+	    border-radius: 10px;
+        }
+        .btn1:hover
+        {
+            background: transparent;
+            border: 1px solid;
+            color: #00B278;
+        }
+	.form-control
+	{
+	    background: transparent !important;
+	    border-radius: 10px;
+	}
+	.form-label
+	{
+	    position: absolute;
+	    left: 1.5rem;
+	    top: 0.2rem;
+	    padding: 0 0.5rem;
+	    background-color: #171717;
+	}
+
+    *
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+    
+    background-color: #252523;
+    color: white !important;
+    }
+    a
+    {
+    color: #696969 !important;
+    :hover
+    {
+    color: #00B278;
+    }
+    }
+    // a:hover
+    // {
+    // color: #00B278;
+    // }
+    
+    nav
+    {
+    box-shadow:4px 4px 7px black
+    }
+    .row
+    {
+        // background: white;
+        border-radius: 30px;
+        // <!--box-shadow: 12px 12px 22px grey; -->
+    }
+    
+    #login
+    {
+    line-height: 70%;
+    }
+    .card
+    {
+    background-color: #252523;
+    box-shadow: 0px 0px 4px 0px black;
+    padding: 10px;
+        border-radius: 15px;
+        :hover
+    {
+        transform: scale(1.05);
+    }
+    }
+    // .card:hover
+    // {
+    //     transform: scale(1.05);
+    // }
+    
+    .btn
+    {
+    color: white !important;
+    
+    }
+    
+    .btn-custom1
+    {
+    background-color: #00B278;
+    background-image: linear-gradient(to left, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 30%, rgba(0,0,0,0.15) 60%, rgba(0,0,0,0.05));
+    }
+    
+    .card-img
+    {
+    width: 30%;
+    // <!-- margin-left: 5px; -->
+    }
+    .right-fa
+    {
+    margin-left: 2px;
+    }
+    .left-fa
+    {
+    margin-right: 2px;
+    }
